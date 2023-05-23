@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> 
+
+/*General Rules*/ 
+
+/*a different body class for each page and then in the style sheet i would refer to those classes?\*
+
+/*Homepage*/ 
+
+/*Project Page*/
+
+/*Contact Page*/
+
+
+li {
+    color: #ccc;
+    }
+</style>
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height:auto;
+}
+
+body {
+    background:light grey
+}
+
+.images img
+{
+    height : 50%;
+    width : 5%;
+    margin-top: 1px;
+} 
+
+.images img
+{
+Padding: 10px,10px,10px,10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+.socialmedia div {
+    float: left;
+    margin-right: 6px;
+  }
+.header { 
+    padding: 60px;
+    text-align: center;
+    background: #f4f4f4;
+    color: white
+}
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f4f4f4;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Change link color on hover */ 
+li a:hover:(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lng="en">
+
+<head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width," metaname="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+</head>
+<hr> 
+<body> 
+    <header> 
+        <h1> 
+            <i>Contact</i>
+        </h1>
+    <img src= ""
+    width="200"
+    alt="My profile picture"
+    >
+    <nav>  
+        <ul>
+        <a class="Home" href="index.html">Home</a>
+        <a class= "Projects" href="projects.html">Work</a>
+        <a class= "Contact" href="contact.html">Contact</a>
+        </ul>
+    </nav>
+    </header>
+<hr>
+
+    <!--This form is to collect my name and email-->
+    <h1> My form</h1>
+
+    <form> 
+        <!-- Name field -->
+        <div>
+         <label for="fullname"> Your full name</label>
+        <input
+            type="text"
+            id="fullname" name="name">
+            <required 
+            minlength="2"
+            maxlength="100"
+            pattern="[A-Za-zi]"
+        >
+        <!--pattern: no sepcial characters or numbers-->
+        </div>
+        <br>
+        <!--Email field-->
+        <div>
+         <label for="email">Your email:</label>
+         <input type="email" 
+         id="email" 
+         name="email"> 
+         <required
+        minlength="2"
+        maxlength="100"
+        pattern="[A-Za-zi]"
+        > 
+        <!--Message field-->
+        <div>
+        <br>
+         <label for="message">Your message:</label>
+        <input type="message" 
+        id="message" 
+        name="message"> 
+        <required
+        minlength="2"
+        maxlength="100"
+        pattern="[A-Za-zi]"
+        >
+        <!--Telephone field-->
+        <div> 
+        <br>
+         <label for="telephone">Your telephone</label>
+        <input type="telephone" 
+        id="telephone" 
+        name="telephone"
+        <required
+        minlength="2"
+        maxlength="100"
+        pattern="[A-Za-zi]"
+        >
+        
+        <div>
+        <br>
+        <button type="submit">Submit the form</button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lng="en">
+
+<head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width," metaname="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+</head>
+
+<body> 
+
+    <h1> Survey </h1>
+
+    <form> 
+
+        <div>
+            <br>
+            <!-- Name field -->
+            <label for="fullname"> Your full name</label>
+            <input
+            type="text"
+            id="fullname" name="name">
+            <required 
+            minlength="2"
+            maxlength="100">
+        </div>
+
+        <div>
+            <br>
+            <!--Email field-->
+            <label for="email">Your email:</label>
+            <input type="email" 
+            id="email" 
+            name="email"> 
+            <required
+            minlength="2"
+            maxlength="100">
+        </div>
+        
+        <div>
+            <br>
+            <!--Telephone field-->
+            <label for="telephone">Your telephone</label>
+            <input type="telephone" 
+            id="telephone" 
+            name="telephone">
+        </div>
+
+        <div>
+            <br> 
+            <!--Dob Field-->
+            <label for="dob">Your date of birth</label>
+            <input type="date"
+            id="dob"
+            name="dob">
+        </div>
+        
+        <div>
+            <br>
+            <!--Password Field-->
+            <label for="password"> Your password</label>
+            <input type="password"
+            id=password
+            name="password"> 
+        </div>
+
+
+        <h3> 
+            Questions
+        </h3>
+    
+    <div>
+        <br>
+        <!--Question 1-->
+        <label for ="Q1">Q,1: What Enviroment do you prefer?</label>
+        <select name="Enviroments" id="Enviroments">
+            <option
+        value="Rural">Rural</option>
+        <option value="Urban">Urban</option>
+        <option value="sub-urban">Sub-urban</option>
+        </select>
+    </div>
+
+        <br><br>
+
+    <div> 
+        <br>
+        <!--Question 2-->
+        <label for="Q2">Q,2: Where would be your ideal location for a holiday?</label>
+        <select name="Holiday" id="Holiday">
+        <option
+        value="Beach">Beach</option>
+        <option value="Adventure">Adventure</option>
+        <option value="Skiing">Skiing</option>
+        </select>
+    </div>
+
+        <br><br>
+
+    <div>
+        
+        <!--Question 3-->
+        <p>Q,3: What holiday destination would you consider?</p>
+
+        <div id='block-1' style='padding: 10px;'>
+            <label for='option-1'>
+            <input type='radio' name='option' value='Bali' id='option-1' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            Bali</label>
+            <span id='result-1'></span>
+        </div>
+  
+  
+        <div id='block-2' style='padding: 10px;'>
+            <label for='option-2'>
+            <input type='radio' name='option' value='Canada' id='option-2' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            Canada</label>
+            <span id='result-2'></span>
+        </div>
+  
+       
+
+        <div id='block-3' style='padding: 10px;'>
+            <label for='option-3'>
+            <input type='radio' name='option' value='Norway' id='option-3' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
+            Norway</label>
+            <span id='result-3'></span>
+        </div>
+  
+    </div>
+
+        <br><br>
+
+    <div>
+        <!--Question 4-->
+        <label for="Q4">Q,4: What transport would you consider? </label><br><br>
+        <input type="checkbox" id="Airplane" name="Airplane" Value="Airplane">
+        <label for= "Airplane"> Airplane</label><br>
+        <input type="checkbox" id="Car" name="Car" Value="Car">
+        <label for= "Car"> Car</label><br>
+        <input type="checkbox" id="Car share" name="Car share" Value="Car share">
+        <label for= "Car share"> Car share</label><br>
+        <input type="checkbox" id="Bus" name="Bus" Value="Bus">
+        <label for= "Bus">Bus</label><br>
+    </div>
+
+        <br><br>
+    
+    <div class="form-row">
+                <!--Question 5-->
+        <label style= "display:block;" for="Q5">Q,5: What is your budget? </label><br><br>
+        <input type="radio" name="1" />£200</label>
+        <label>
+        <input type="radio" name="1" />£500</label>
+        <label>
+        <input type="radio" name="1" />£1000</label>
+    </div>
+
+        <br><br>
+
+    <div> 
+        <label for="Feedback">Your feedback</label>
+        <div>
+        <textarea  name="feedback" id="feedback" placeholder="Write something.."
+        style="height:200px"></textarea>
+        </div>
+    </div>
+
+        <br>
+
+        <button type ="reset">Reset</button>
+        <button type= "submit">Submit</button>
+        
+
+
+    </form>
+</body>
