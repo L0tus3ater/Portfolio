@@ -1,30 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style> 
 
-/*General Rules*/ 
+body {
+    font-size: 20px 
 
-/*a different body class for each page and then in the style sheet i would refer to those classes?\*
+}
 
-/*Homepage*/ 
+h1 {
+    font-size: 2rem;
+}
 
-/*Project Page*/
-
-/*Contact Page*/
-
+/* 1 rem is the default font size for p which is 16px */
 
 li {
     color: #ccc;
     }
-</style>
 
-.responsive {
-  width: 100%;
-  max-width: 400px;
-  height:auto;
+
+.images {
+
+    padding: 20 px;
+    text-align: right;
+    text-decoration: none; 
+
 }
 
 body {
@@ -33,23 +29,18 @@ body {
 
 .images img
 {
-    height : 50%;
-    width : 5%;
+    width: 5%;
     margin-top: 1px;
 } 
 
 .images img
 {
-Padding: 10px,10px,10px,10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-  }
-.socialmedia div {
-    float: left;
-    margin-right: 6px;
   }
 .header { 
     padding: 60px;
@@ -91,6 +82,3 @@ li a:hover:(.active) {
 
 
 
-
-</body>
-</html>
